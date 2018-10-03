@@ -1,0 +1,930 @@
+{
+    "algo": "gbm",
+    "model_id": "GBM_grid_0_AutoML_20181003_010045_model_2",
+    "varimp": [
+        [
+            "Grade 3 Math - All Students tested",
+            1200304029696.0,
+            1.0,
+            0.3335231248683164
+        ],
+        [
+            "Grade 3 ELA - All Students Tested",
+            653129547776.0,
+            0.5441367617014645,
+            0.18148219311839892
+        ],
+        [
+            "Economic Need Index",
+            531167772672.0,
+            0.4425276925934577,
+            0.14759321887453575
+        ],
+        [
+            "Grades",
+            422396198912.0,
+            0.351907673774102,
+            0.11736934702227858
+        ],
+        [
+            "Percent White",
+            247670702080.0,
+            0.20633997383373556,
+            0.06881915285827414
+        ],
+        [
+            "City",
+            109596106752.0,
+            0.09130695560503727,
+            0.03045298115560467
+        ],
+        [
+            "Percent Black / Hispanic",
+            76606210048.0,
+            0.06382233846819792,
+            0.02128622576231673
+        ],
+        [
+            "Grade Low",
+            44641665024.0,
+            0.037191964635248584,
+            0.012404380265140022
+        ],
+        [
+            "Percent of Students Chronically Absent",
+            28514639872.0,
+            0.02375618107290857,
+            0.00792323574637402
+        ],
+        [
+            "Longitude",
+            27097735168.0,
+            0.022575726230680923,
+            0.00752952675862832
+        ],
+        [
+            "Grade 3 Math 4s - White",
+            25084768256.0,
+            0.020898678697557318,
+            0.0069701926248282335
+        ],
+        [
+            "Address",
+            23946186752.0,
+            0.0199501011073543,
+            0.006653820062763667
+        ],
+        [
+            "Percent ELL",
+            20732266496.0,
+            0.017272512616033492,
+            0.00576078238202691
+        ],
+        [
+            "Latitude",
+            19707867136.0,
+            0.01641906271112944,
+            0.005476137102824743
+        ],
+        [
+            "District",
+            18990100480.0,
+            0.015821075336062654,
+            0.005276694484860666
+        ],
+        [
+            "Grade 4 ELA 4s - Economically Disadvantaged",
+            13744192512.0,
+            0.011450592659828843,
+            0.003819037445500323
+        ],
+        [
+            "Grade 3 Math 4s - All Students",
+            12208843776.0,
+            0.01017145945856078,
+            0.0033924169430905858
+        ],
+        [
+            "Average ELA Proficiency",
+            8324423680.0,
+            0.006935262628509478,
+            0.002313070463642935
+        ],
+        [
+            "Strong Family-Community Ties %",
+            8124519936.0,
+            0.006768718370509587,
+            0.002257524102285936
+        ],
+        [
+            "Percent Hispanic",
+            7120498176.0,
+            0.005932245497670622,
+            0.0019785410558691065
+        ],
+        [
+            "Strong Family-Community Ties Rating",
+            6960788480.0,
+            0.005799187795581219,
+            0.0019341632352804516
+        ],
+        [
+            "Effective School Leadership %",
+            5761035264.0,
+            0.004799646690729758,
+            0.0016007931625560629
+        ],
+        [
+            "Zip",
+            5640477696.0,
+            0.004699207497810833,
+            0.0015672943690744913
+        ],
+        [
+            "Percent Black",
+            5566587392.0,
+            0.004637647841113926,
+            0.001546762800007118
+        ],
+        [
+            "Grade 4 Math - All Students Tested",
+            4428148224.0,
+            0.0036891888342002097,
+            0.0012304297882117553
+        ],
+        [
+            "SED Code",
+            4186906624.0,
+            0.0034882050883894926,
+            0.0011633970612612255
+        ],
+        [
+            "Grade 5 ELA - All Students Tested",
+            3811760384.0,
+            0.003175662406936517,
+            0.0010591568494883062
+        ],
+        [
+            "Grade 5 Math - All Students Tested",
+            3563211008.0,
+            0.0029685903903050727,
+            0.000990093543428603
+        ],
+        [
+            "Grade 8 Math 4s - All Students",
+            3535604224.0,
+            0.0029455905641635307,
+            0.0009824225695424479
+        ],
+        [
+            "Grade 4 Math 4s - All Students",
+            2867468544.0,
+            0.002388951859743603,
+            0.0007967706894216625
+        ],
+        [
+            "Average Math Proficiency",
+            2828820480.0,
+            0.0023567532975095093,
+            0.0007860317243290806
+        ],
+        [
+            "Grade 4 ELA - All Students Tested",
+            2792573184.0,
+            0.0023265548685254957,
+            0.0007759598499282184
+        ],
+        [
+            "Percent Asian",
+            2406437120.0,
+            0.0020048563201187255,
+            0.0006686659447979911
+        ],
+        [
+            "Grade 3 ELA 4s - All Students",
+            2288479744.0,
+            0.001906583405022477,
+            0.0006358896550651715
+        ],
+        [
+            "Grade 7 Math 4s - Hispanic or Latino",
+            2262578944.0,
+            0.001885004872118143,
+            0.0006286927153408442
+        ],
+        [
+            "Grade 3 Math 4s - Economically Disadvantaged",
+            1916069376.0,
+            0.001596320039419747,
+            0.0005324096478371882
+        ],
+        [
+            "Collaborative Teachers Rating",
+            1678176256.0,
+            0.001398125986817715,
+            0.0004663073480830429
+        ],
+        [
+            "Grade 8 Math 4s - Economically Disadvantaged",
+            1466107264.0,
+            0.0012214465899704758,
+            0.0004073806835467023
+        ],
+        [
+            "Grade 3 ELA 4s - Economically Disadvantaged",
+            1457201536.0,
+            0.0012140270297760012,
+            0.00040490608864549255
+        ],
+        [
+            "Student Achievement Rating",
+            1451741696.0,
+            0.001209478315562834,
+            0.0004033889872669841
+        ],
+        [
+            "Grade High",
+            1330524288.0,
+            0.0011084893952551177,
+            0.00036970684698887723
+        ],
+        [
+            "Effective School Leadership Rating",
+            1223548800.0,
+            0.0010193657354544475,
+            0.0003399820454724569
+        ],
+        [
+            "Supportive Environment %",
+            1219434240.0,
+            0.0010159378039485921,
+            0.0003388387510447895
+        ],
+        [
+            "Student Attendance Rate",
+            1172291968.0,
+            0.0009766625279904338,
+            0.00032573953827715903
+        ],
+        [
+            "Rigorous Instruction Rating",
+            1004383680.0,
+            0.0008367743964455234,
+            0.0002790836115123104
+        ],
+        [
+            "Grade 5 ELA 4s - Economically Disadvantaged",
+            1003578496.0,
+            0.0008361035797356904,
+            0.000278859878627033
+        ],
+        [
+            "Grade 7 ELA - All Students Tested",
+            965897856.0,
+            0.0008047109999660937,
+            0.00026838972732459926
+        ],
+        [
+            "Grade 6 ELA 4s - Economically Disadvantaged",
+            955341504.0,
+            0.0007959162681824525,
+            0.00026545648089774053
+        ],
+        [
+            "Grade 5 Math 4s - Economically Disadvantaged",
+            952122752.0,
+            0.0007932346542576745,
+            0.00026456210064185816
+        ],
+        [
+            "Trust Rating",
+            906854720.0,
+            0.0007555208493548742,
+            0.00025198367458000216
+        ],
+        [
+            "Grade 8 ELA 4s - Asian or Pacific Islander",
+            869183680.0,
+            0.0007241362675589262,
+            0.00024151619078673236
+        ],
+        [
+            "Grade 3 Math 4s - Hispanic or Latino",
+            867179648.0,
+            0.000722466663899837,
+            0.00024095933935706134
+        ],
+        [
+            "Grade 6 Math 4s - Limited English Proficient",
+            849019712.0,
+            0.000707337217067438,
+            0.00023591331897199053
+        ],
+        [
+            "Grade 4 ELA 4s - All Students",
+            818143168.0,
+            0.0006816132811011311,
+            0.00022733379146459541
+        ],
+        [
+            "Grade 5 Math 4s - White",
+            808069376.0,
+            0.0006732205807929005,
+            0.00022453463183171106
+        ],
+        [
+            "Grade 4 ELA 4s - White",
+            787708032.0,
+            0.0006562570919631938,
+            0.00021887691602855852
+        ],
+        [
+            "Grade 7 ELA 4s - All Students",
+            747700096.0,
+            0.0006229255901018423,
+            0.00020776008937120643
+        ],
+        [
+            "Grade 4 ELA 4s - Hispanic or Latino",
+            726925184.0,
+            0.0006056175485673474,
+            0.00020198745727327108
+        ],
+        [
+            "Grade 4 ELA 4s - Black or African American",
+            726447296.0,
+            0.0006052194094391124,
+            0.00020185466866708983
+        ],
+        [
+            "Grade 5 ELA 4s - White",
+            700139136.0,
+            0.0005833014958529496,
+            0.00019454453763723906
+        ],
+        [
+            "Grade 6 Math 4s - All Students",
+            686890304.0,
+            0.0005722635990599549,
+            0.00019086314380686552
+        ],
+        [
+            "Grade 6 ELA 4s - Hispanic or Latino",
+            610460672.0,
+            0.0005085883716933041,
+            0.0001696259829988396
+        ],
+        [
+            "Rigorous Instruction %",
+            604088128.0,
+            0.0005032792634654379,
+            0.00016785527263241758
+        ],
+        [
+            "Grade 4 Math 4s - Economically Disadvantaged",
+            583198784.0,
+            0.0004858758860850499,
+            0.00016205084382524797
+        ],
+        [
+            "Grade 8 Math 4s - Black or African American",
+            579855232.0,
+            0.00048309029850283805,
+            0.0001611217859502343
+        ],
+        [
+            "Grade 5 Math 4s - All Students",
+            566614208.0,
+            0.0004720589067284111,
+            0.00015744256169398078
+        ],
+        [
+            "Grade 8 ELA - All Students Tested",
+            556093632.0,
+            0.00046329398072656754,
+            0.0001545192561846064
+        ],
+        [
+            "Grade 4 Math 4s - White",
+            552899584.0,
+            0.00046063294825397896,
+            0.00015363174031897257
+        ],
+        [
+            "Grade 8 Math 4s - Hispanic or Latino",
+            548377856.0,
+            0.0004568657960257679,
+            0.00015237530793596498
+        ],
+        [
+            "Collaborative Teachers %",
+            545721216.0,
+            0.0004546524901180365,
+            0.0001516371192333289
+        ],
+        [
+            "Grade 8 Math - All Students Tested",
+            505962304.0,
+            0.00042152845569313357,
+            0.00014058948776368956
+        ],
+        [
+            "Grade 5 ELA 4s - Hispanic or Latino",
+            482300512.0,
+            0.000401815290182898,
+            0.00013401469120166948
+        ],
+        [
+            "Grade 5 ELA 4s - Black or African American",
+            442162816.0,
+            0.0003683756823777274,
+            0.00012286180871211807
+        ],
+        [
+            "Grade 6 Math - All Students Tested",
+            405297536.0,
+            0.0003376623971700315,
+            0.00011261821785467546
+        ],
+        [
+            "Grade 3 ELA 4s - Hispanic or Latino",
+            371581216.0,
+            0.0003095725806186871,
+            0.00010324961446149335
+        ],
+        [
+            "Grade 3 Math 4s - Black or African American",
+            355915488.0,
+            0.0002965211139798826,
+            9.889664852400468e-05
+        ],
+        [
+            "Grade 6 ELA - All Students Tested",
+            325545600.0,
+            0.0002712192844028447,
+            9.04579032585854e-05
+        ],
+        [
+            "Grade 5 ELA 4s - All Students",
+            317319392.0,
+            0.0002643658474431409,
+            8.817212354769697e-05
+        ],
+        [
+            "Grade 4 Math 4s - Black or African American",
+            294752224.0,
+            0.0002455646375482482,
+            8.190148527224726e-05
+        ],
+        [
+            "Grade 3 ELA 4s - Black or African American",
+            288013568.0,
+            0.00023995051326533074,
+            8.002904499800953e-05
+        ],
+        [
+            "Grade 7 Math 4s - Economically Disadvantaged",
+            287522464.0,
+            0.00023954136359337274,
+            7.989258412087924e-05
+        ],
+        [
+            "Supportive Environment Rating",
+            271055360.0,
+            0.0002258222527742825,
+            7.531694341008154e-05
+        ],
+        [
+            "Grade 4 Math 4s - Hispanic or Latino",
+            244645776.0,
+            0.00020381984059652055,
+            6.797863014591367e-05
+        ],
+        [
+            "Grade 6 Math 4s - Economically Disadvantaged",
+            241055072.0,
+            0.0002008283451827216,
+            6.698089724747421e-05
+        ],
+        [
+            "Grade 7 Math - All Students Tested",
+            240890240.0,
+            0.00020069101997517252,
+            6.693509611512925e-05
+        ],
+        [
+            "Grade 6 Math 4s - Hispanic or Latino",
+            240117472.0,
+            0.0002000472097563601,
+            6.672037051912878e-05
+        ],
+        [
+            "Grade 5 Math 4s - Black or African American",
+            228701776.0,
+            0.00019053653936155086,
+            6.354834200945942e-05
+        ],
+        [
+            "Grade 7 Math 4s - Black or African American",
+            226924576.0,
+            0.00018905591448982554,
+            6.305451937548385e-05
+        ],
+        [
+            "Grade 7 Math 4s - Asian or Pacific Islander",
+            223793776.0,
+            0.00018644757533362616,
+            6.218457794939184e-05
+        ],
+        [
+            "Grade 7 Math 4s - All Students",
+            222780992.0,
+            0.00018560380244363886,
+            6.19031601784441e-05
+        ],
+        [
+            "Grade 7 ELA 4s - Hispanic or Latino",
+            206238176.0,
+            0.00017182161427237212,
+            5.7306481712040065e-05
+        ],
+        [
+            "Grade 5 Math 4s - Hispanic or Latino",
+            184295872.0,
+            0.00015354099248227673,
+            5.1209471608071616e-05
+        ],
+        [
+            "Grade 5 Math 4s - Asian or Pacific Islander",
+            172244928.0,
+            0.00014350108284117344,
+            4.786092957117531e-05
+        ],
+        [
+            "Grade 6 ELA 4s - Asian or Pacific Islander",
+            165257600.0,
+            0.00013767978438084113,
+            4.591939191789416e-05
+        ],
+        [
+            "Grade 7 ELA 4s - Black or African American",
+            154567328.0,
+            0.00012877348086479985,
+            4.29489337381984e-05
+        ],
+        [
+            "Grade 6 Math 4s - Black or African American",
+            152387008.0,
+            0.00012695700774960735,
+            4.234309794858011e-05
+        ],
+        [
+            "Trust %",
+            152076288.0,
+            0.00012669814000250938,
+            4.2256759568640376e-05
+        ],
+        [
+            "Grade 8 ELA 4s - Hispanic or Latino",
+            132743688.0,
+            0.00011059172069398108,
+            3.688489627042063e-05
+        ],
+        [
+            "Grade 6 ELA 4s - Black or African American",
+            129673984.0,
+            0.00010803428197507795,
+            3.6031931317232834e-05
+        ],
+        [
+            "Grade 8 ELA 4s - Economically Disadvantaged",
+            116455264.0,
+            9.702147215942825e-05,
+            3.235890457393688e-05
+        ],
+        [
+            "Community School?",
+            108718128.0,
+            9.057549196726012e-05,
+            3.020902111740569e-05
+        ],
+        [
+            "Grade 6 ELA 4s - All Students",
+            88148936.0,
+            7.343884034307992e-05,
+            2.4493551517929397e-05
+        ],
+        [
+            "Grade 3 Math 4s - Limited English Proficient",
+            85225632.0,
+            7.100337072232027e-05,
+            2.3681266079491786e-05
+        ],
+        [
+            "Grade 8 Math 4s - White",
+            79326288.0,
+            6.608849594555715e-05,
+            2.204204168560928e-05
+        ],
+        [
+            "Grade 5 ELA 4s - Asian or Pacific Islander",
+            60931808.0,
+            5.076364528696296e-05,
+            1.6930849605814672e-05
+        ],
+        [
+            "Grade 5 Math 4s - Limited English Proficient",
+            52090608.0,
+            4.3397844805363975e-05,
+            1.4474184812035227e-05
+        ],
+        [
+            "Grade 3 ELA 4s - White",
+            43934596.0,
+            3.6602889695477636e-05,
+            1.2207910150446e-05
+        ],
+        [
+            "Grade 3 Math 4s - Asian or Pacific Islander",
+            42120180.0,
+            3.509125934590734e-05,
+            1.170374647261153e-05
+        ],
+        [
+            "Grade 3 ELA 4s - Asian or Pacific Islander",
+            29849476.0,
+            2.4868262758028023e-05,
+            8.294140705103883e-06
+        ],
+        [
+            "Grade 4 Math 4s - Limited English Proficient",
+            25552942.0,
+            2.1288724662927084e-05,
+            7.100281974040638e-06
+        ],
+        [
+            "Grade 7 ELA 4s - Economically Disadvantaged",
+            7515788.5,
+            6.261570663812165e-06,
+            2.088378614378412e-06
+        ],
+        [
+            "Grade 7 Math 4s - White",
+            6615667.5,
+            5.511659826448758e-06,
+            1.8382660085283525e-06
+        ],
+        [
+            "Grade 8 ELA 4s - All Students",
+            2136183.25,
+            1.7797018065006658e-06,
+            5.935717078378898e-07
+        ],
+        [
+            "Grade 8 ELA 4s - White",
+            1401478.75,
+            1.1676031366444311e-06,
+            3.8942264673969854e-07
+        ],
+        [
+            "Grade 3 ELA 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 3 ELA 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 3 ELA 4s - Limited English Proficient",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 3 Math 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 3 Math 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 4 ELA 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 4 ELA 4s - Asian or Pacific Islander",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 4 ELA 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 4 ELA 4s - Limited English Proficient",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 4 Math 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 4 Math 4s - Asian or Pacific Islander",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 4 Math 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 5 ELA 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 5 ELA 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 5 ELA 4s - Limited English Proficient",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 5 Math 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 5 Math 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 6 ELA 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 6 ELA 4s - White",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 6 ELA 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 6 ELA 4s - Limited English Proficient",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 6 Math 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 6 Math 4s - Asian or Pacific Islander",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 6 Math 4s - White",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 6 Math 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 7 ELA 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 7 ELA 4s - Asian or Pacific Islander",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 7 ELA 4s - White",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 7 ELA 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 7 ELA 4s - Limited English Proficient",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 7 Math 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 7 Math 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 7 Math 4s - Limited English Proficient",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 8 ELA 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 8 ELA 4s - Black or African American",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 8 ELA 4s - Multiracial",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 8 ELA 4s - Limited English Proficient",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 8 Math 4s - American Indian or Alaska Native",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 8 Math 4s - Asian or Pacific Islander",
+            0.0,
+            0.0,
+            0.0
+        ],
+        [
+            "Grade 8 Math 4s - Limited English Proficient",
+            0.0,
+            0.0,
+            0.0
+        ]
+    ]
+}
